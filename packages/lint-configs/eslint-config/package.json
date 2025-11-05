@@ -17,7 +17,8 @@
   "devDependencies": {
     "@eslint/js": "catalog:",
     "eslint-plugin-vue": "catalog:",
-    "typescript-eslint": "catalog:"
+    "typescript-eslint": "catalog:",
+    "vue-eslint-parser": "catalog:"
   },
   "peerDependencies": {
     "eslint": "catalog:"

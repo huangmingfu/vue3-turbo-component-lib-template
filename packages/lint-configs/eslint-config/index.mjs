@@ -13,6 +13,17 @@ export default tseslint.config(
 
   // 通用规则配置（适用于所有文件）
   {
+    languageOptions: {
+      globals: {
+        // DOM APIs
+        HTMLElement: 'readonly',
+        MouseEvent: 'readonly',
+        console: 'readonly',
+        window: 'readonly',
+        // Node.js APIs
+        URL: 'readonly',
+      },
+    },
     rules: {
       // 'no-console': ['error', { allow: ['warn', 'error', 'info', 'clear'] }], // 禁止使用 console 语句，但允许 warn, error, info 和 clear
       'no-debugger': 'error', // 禁止使用 debugger 语句

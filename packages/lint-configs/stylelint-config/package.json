@@ -23,7 +23,8 @@
     "stylelint-config-recommended-vue": "catalog:",
     "stylelint-config-standard": "catalog:",
     "stylelint-config-standard-scss": "catalog:",
-    "stylelint-scss": "catalog:"
+    "stylelint-scss": "catalog:",
+    "stylelint-order": "catalog:"
   },
   "peerDependencies": {
     "stylelint": "catalog:"
