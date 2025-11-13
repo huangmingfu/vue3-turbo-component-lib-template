@@ -34,20 +34,20 @@
   },
   "devDependencies": {
     "@mylib/typescript-config": "workspace:*",
-    "@types/node": "catalog:",
-    "@vitejs/plugin-vue": "catalog:",
-    "@vitejs/plugin-vue-jsx": "catalog:",
-    "@vitest/ui": "catalog:",
-    "@vue/test-utils": "catalog:",
-    "happy-dom": "catalog:",
-    "sass": "catalog:",
-    "typescript": "catalog:",
-    "vite": "catalog:",
-    "vite-plugin-dts": "catalog:",
-    "vitest": "catalog:",
-    "vue": "catalog:"
+    "@types/node": "catalog:types",
+    "@vitejs/plugin-vue": "catalog:build",
+    "@vitejs/plugin-vue-jsx": "catalog:build",
+    "@vitest/ui": "catalog:test",
+    "@vue/test-utils": "catalog:test",
+    "happy-dom": "catalog:test",
+    "sass": "catalog:dev",
+    "typescript": "catalog:types",
+    "vite": "catalog:build",
+    "vite-plugin-dts": "catalog:build",
+    "vitest": "catalog:test",
+    "vue": "catalog:frontend"
   },
   "peerDependencies": {
-    "vue": "catalog:"
+    "vue": "catalog:frontend"
   }
 }

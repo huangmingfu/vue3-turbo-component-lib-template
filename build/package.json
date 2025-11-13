@@ -8,20 +8,20 @@
     "clean": "rimraf .turbo node_modules dist"
   },
   "devDependencies": {
-    "@babel/preset-env": "catalog:",
-    "@rollup/plugin-alias": "catalog:",
-    "@rollup/plugin-babel": "catalog:",
-    "@rollup/plugin-json": "catalog:",
-    "@rollup/plugin-node-resolve": "catalog:",
-    "@rollup/plugin-terser": "catalog:",
-    "@vitejs/plugin-vue": "catalog:",
-    "@vitejs/plugin-vue-jsx": "catalog:",
-    "gulp": "catalog:",
-    "gulp-clean": "catalog:",
-    "rollup": "catalog:",
-    "rollup-plugin-copy": "catalog:",
-    "rollup-plugin-dts": "catalog:",
-    "rollup-plugin-esbuild": "catalog:",
-    "rollup-plugin-scss": "catalog:"
+    "@babel/preset-env": "catalog:build",
+    "@rollup/plugin-alias": "catalog:build",
+    "@rollup/plugin-babel": "catalog:build",
+    "@rollup/plugin-json": "catalog:build",
+    "@rollup/plugin-node-resolve": "catalog:build",
+    "@rollup/plugin-terser": "catalog:build",
+    "@vitejs/plugin-vue": "catalog:build",
+    "@vitejs/plugin-vue-jsx": "catalog:build",
+    "gulp": "catalog:build",
+    "gulp-clean": "catalog:build",
+    "rollup": "catalog:build",
+    "rollup-plugin-copy": "catalog:build",
+    "rollup-plugin-dts": "catalog:build",
+    "rollup-plugin-esbuild": "catalog:build",
+    "rollup-plugin-scss": "catalog:build"
   }
 }

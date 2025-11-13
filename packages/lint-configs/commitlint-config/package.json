@@ -15,10 +15,10 @@
     "clean": "rimraf .turbo node_modules"
   },
   "devDependencies": {
-    "@commitlint/cli": "catalog:",
-    "@commitlint/config-conventional": "catalog:"
+    "@commitlint/cli": "catalog:lint",
+    "@commitlint/config-conventional": "catalog:lint"
   },
   "peerDependencies": {
-    "@commitlint/cli": "catalog:"
+    "@commitlint/cli": "catalog:lint"
   }
 }

@@ -19,9 +19,9 @@
   },
   "devDependencies": {
     "@mylib/typescript-config": "workspace:*",
-    "@rollup/plugin-json": "catalog:",
-    "rollup": "catalog:",
-    "rollup-plugin-dts": "catalog:",
-    "rollup-plugin-esbuild": "catalog:"
+    "@rollup/plugin-json": "catalog:build",
+    "rollup": "catalog:build",
+    "rollup-plugin-dts": "catalog:build",
+    "rollup-plugin-esbuild": "catalog:build"
   }
 }

@@ -4,60 +4,67 @@ packages:
   - packages/lint-configs/*
   - playground
   - build
-catalog:
-  vue: ^3.5.22
-  typescript: ^5.9.3
-  vite: ^7.1.12
-  '@vitejs/plugin-vue': ^6.0.1
-  '@vitejs/plugin-vue-jsx': ^5.1.1
-  '@types/node': ^24.10.0
-  sass: ^1.93.3
-  vite-plugin-dts: ^4.5.4
-  eslint: ^9.39.1
-  prettier: ^3.6.2
-  stylelint: ^16.25.0
-  turbo: ^2.6.0
-  rollup: ^4.52.5
-  '@rollup/plugin-json': ^6.1.0
-  '@rollup/plugin-terser': ^0.4.4
-  rollup-plugin-dts: ^6.2.3
-  rollup-plugin-esbuild: 6.2.1
-  vitepress: ^1.6.4
-  vitepress-demo-plugin: ^1.5.0
-  '@babel/preset-env': ^7.28.5
-  '@rollup/plugin-alias': ^6.0.0
-  '@rollup/plugin-babel': ^6.1.0
-  '@rollup/plugin-node-resolve': ^16.0.3
-  gulp: ^5.0.1
-  gulp-clean: ^0.4.0
-  rollup-plugin-copy: ^3.5.0
-  rollup-plugin-scss: ^4.0.1
-  postcss: ^8.5.6
-  postcss-html: ^1.8.0
-  postcss-scss: ^4.0.9
-  stylelint-config-recess-order: ^7.4.0
-  stylelint-config-recommended-vue: ^1.6.1
-  stylelint-config-standard: ^39.0.1
-  stylelint-config-standard-scss: ^16.0.0
-  stylelint-scss: ^6.12.1
-  '@eslint/js': 9.39.1
-  eslint-plugin-vue: ^10.5.1
-  typescript-eslint: ^8.46.3
-  '@changesets/cli': ^2.29.7
-  '@commitlint/cli': ^20.1.0
-  '@commitlint/config-conventional': ^20.0.0
-  'vue-eslint-parser': ^10.2.0
-  husky: ^9.1.7
-  lint-staged: ^16.2.6
-  vitest: ^4.0.7
-  '@ant-design/icons-vue': ^7.0.1
-  'stylelint-order': ^7.0.0
-  ant-design-vue: ^4.2.6
-  vue-router: ^4.6.3
-  rimraf: ^6.1.0
-  '@vitest/ui': ^4.0.7
-  '@vue/test-utils': ^2.4.6
-  happy-dom: ^20.0.10
+catalogs:
+  frontend:
+    'vue': ^3.5.22
+    ant-design-vue: ^4.2.6
+    vue-router: ^4.6.3
+    '@ant-design/icons-vue': ^7.0.1
+  dev:
+    'sass': ^1.93.3
+    rimraf: ^6.1.0
+    '@changesets/cli': ^2.29.7
+  types:
+    '@types/node': ^24.10.0
+    'typescript': ^5.9.3
+  build:
+    turbo: ^2.6.0
+    rollup: ^4.52.5
+    '@rollup/plugin-json': ^6.1.0
+    '@rollup/plugin-terser': ^0.4.4
+    rollup-plugin-dts: ^6.2.3
+    rollup-plugin-esbuild: ^6.2.1
+    'vite': ^7.1.12
+    vitepress: ^1.6.4
+    '@vitejs/plugin-vue': ^6.0.1
+    '@vitejs/plugin-vue-jsx': ^5.1.1
+    'vite-plugin-dts': ^4.5.4
+    vitepress-demo-plugin: ^1.5.0
+    gulp: ^5.0.1
+    gulp-clean: ^0.4.0
+    rollup-plugin-copy: ^3.5.0
+    rollup-plugin-scss: ^4.0.1
+    '@babel/preset-env': ^7.28.5
+    '@rollup/plugin-alias': ^6.0.0
+    '@rollup/plugin-babel': ^6.1.0
+    '@rollup/plugin-node-resolve': ^16.0.3
+  lint:
+    eslint: ^9.39.1
+    globals: ^16.5.0
+    prettier: ^3.6.2
+    stylelint: ^16.25.0
+    stylelint-config-recess-order: ^7.4.0
+    stylelint-config-recommended-vue: ^1.6.1
+    stylelint-config-standard: ^39.0.1
+    stylelint-config-standard-scss: ^16.0.0
+    stylelint-scss: ^6.12.1
+    postcss: ^8.5.6
+    postcss-html: ^1.8.0
+    postcss-scss: ^4.0.9
+    '@eslint/js': 9.39.1
+    eslint-plugin-vue: ^10.5.1
+    typescript-eslint: ^8.46.3
+    '@commitlint/cli': ^20.1.0
+    '@commitlint/config-conventional': ^20.0.0
+    'vue-eslint-parser': ^10.2.0
+    husky: ^9.1.7
+    lint-staged: ^16.2.6
+    'stylelint-order': ^7.0.0
+  test:
+    vitest: ^4.0.7
+    happy-dom: ^20.0.10
+    '@vitest/ui': ^4.0.7
+    '@vue/test-utils': ^2.4.6
 
 onlyBuiltDependencies:
   - esbuild

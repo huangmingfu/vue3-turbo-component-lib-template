@@ -15,9 +15,9 @@
     "clean": "rimraf .turbo node_modules"
   },
   "devDependencies": {
-    "prettier": "catalog:"
+    "prettier": "catalog:lint"
   },
   "peerDependencies": {
-    "prettier": "catalog:"
+    "prettier": "catalog:lint"
   }
 }
