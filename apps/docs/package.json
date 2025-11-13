@@ -18,12 +18,12 @@
     "@mylib/typescript-config": "workspace:*",
     "@mylib/ui": "workspace:*",
     "@mylib/utils": "workspace:*",
-    "vue": "catalog:"
+    "vue": "catalog:frontend"
   },
   "devDependencies": {
-    "sass": "catalog:",
-    "typescript": "catalog:",
-    "vitepress": "catalog:",
-    "vitepress-demo-plugin": "catalog:"
+    "sass": "catalog:dev",
+    "typescript": "catalog:types",
+    "vitepress": "catalog:build",
+    "vitepress-demo-plugin": "catalog:build"
   }
 }
